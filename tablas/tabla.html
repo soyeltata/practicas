@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica con tablas (TABLAS 3) &mdash; Henry Díaz Bordón</title>
+		<!-- etiqueta para soportar encodificación UTF-8 -->
+		<meta charset="UTF-8">
+		<style>
+			body {
+                background: #F0FFF0;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 110%;
+				margin: 50px 100px 75px 100px;
+			}
+            table {
+                color: whitesmoke;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                font-weight: bolder;
+                background-color: #1b1b1b;
+                border-radius: 20px;
+                padding: 5px;
+                height: 250px;
+                width: 400px;
+                border-spacing: 10px;
+            }
+            td {
+                border-radius: 10px;
+                padding: 3px;
+            }
+            table, td {
+                border: 1px solid gray;
+            }
+		</style>
+	</head>
+	<body>
+        <table>
+            <tr>
+                <td colspan="2" bgcolor="red">Elemento 1</td>
+                <!-- <td>Elemento 2</td> -->
+                <td bgcolor="blue">Elemento 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2" bgcolor="black">Elemento 4</td>
+                <td colspan="2" bgcolor="white" style="color: #1b1b1b;">Elemento 5</td>
+                <!-- <td>Elemento 6</td> -->
+            </tr>
+            <tr>
+                <!-- <td>Elemento 7</td> -->
+                <td bgcolor="purple">Elemento 8</td>
+                <td bgcolor="green">Elemento 9</td>
+            </tr>
+        </table>   
+    </body>
+</html>
