@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica con tablas nº 3</title>
+		<!-- etiqueta para soportar encodificación UTF-8 -->
+		<meta charset="UTF-8">
+		<style>
+			body {
+                background: #F0FFF0;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 110%;
+				margin: 50px 100px 75px 100px;
+			}
+            table {
+                color: whitesmoke;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                font-weight: bolder;
+                background-color: #1b1b1b;
+                border-radius: 20px;
+                padding: 5px;
+                border-spacing: 10px;
+                table-layout: fixed;
+            }
+            td {
+                border-radius: 10px;
+                padding: 3px;
+                background-color: azure;
+                color: #1b1b1b;
+            }
+            table, td {
+                border: 1px solid gray;
+            }
+            .first {
+                height: 250px;
+                width: 200px;
+            }
+            .othertb {
+                border-radius: 0;
+                border-spacing: 1px;
+                padding: 1px;
+            }
+            .othertd {
+                border-radius: 0;
+                width: 80px;
+                height: 25px;
+            }
+		</style>
+	</head>
+	<body>
+        <table class="first">
+            <tr>
+                <td colspan="3">A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td colspan="2">D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td colspan="4">F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <table class="othertb">
+            <tr>
+                <td class="othertd" colspan="2"><strong>NOMBRE</strong></td>
+                <td class="othertd">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+                <td class="othertd">&nbsp;</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <table class="othertb">
+            <tr>
+                <td class="othertd" rowspan="3"><strong>ABRIL</strong></td>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <!-- <td class="othertd"></td> -->
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <!-- <td class="othertd"></td> -->
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <table class="othertb">
+            <tr>
+                <td class="othertd" colspan="3"><strong>2022</strong></td>
+            </tr>
+            <tr>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <td class="othertd" colspan="2" rowspan="2"><strong>FIESTA</strong></td>
+                <!-- <td class="othertd"></td> -->
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <!-- <td class="othertd"></td> -->
+                <!-- <td class="othertd"></td> -->
+                <td class="othertd"></td>
+            </tr>
+            <tr>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+                <td class="othertd"></td>
+            </tr>
+        </table>
+    </body>
+</html>
